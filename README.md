@@ -257,8 +257,8 @@ Ta hjälp av föreläsningsanteckningarna och Mongoose-dokumentationen för quer
 När ni gjort endpoints för alla CRUD-operationer och koden fungerar är det dags för förbättringar och refaktorisering. Förslag:
 
 - Bryt ut konfigurerbara värden (t.ex. Connection URI) i en `.env`-fil och läs in med `dotenv`
-- Lägg till validering av input-data
-- Se till att `name` är unikt
+- Lägg till validering av input-data (redan i REST-API:et alltså, innan vi gör validering i mongoose)
+- Se till att `name` är unikt (vilket vi i koden ovan redan gör, alltså i vårt mongoose-schema {unique:true})
 - Stöd för filtrering på name, era, born (exakt), intervall på bornAfter/bornBefore och sortering via ?sort= (ex. sort=born eller sort=-born).
 - Fundera på vad som är rätt väg att gå för `notableWorks` (embedded vs referens)
 - Se till att rätt statuskoder returneras beroende på metod och utfall
