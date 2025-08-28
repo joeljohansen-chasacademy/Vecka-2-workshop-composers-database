@@ -259,11 +259,25 @@ När ni gjort endpoints för alla CRUD-operationer och koden fungerar är det da
 - Bryt ut konfigurerbara värden (t.ex. Connection URI) i en `.env`-fil och läs in med `dotenv`
 - Lägg till validering av input-data
 - Se till att `name` är unikt
-- Lägg till sökfunktionalitet på ex. name, era, och born via queries i GET ex. /composers?born=1750
-- Lägg till sökfunktionalitet för att kunna söka mellan år, t.ex. “hitta alla kompositörer födda mellan 1780 och 1850” ($gt greater than och $lt less than)
+- Stöd för filtrering på name, era, born (exakt), intervall på bornAfter/bornBefore och sortering via ?sort= (ex. sort=born eller sort=-born).
 - Fundera på vad som är rätt väg att gå för `notableWorks` (embedded vs referens)
 - Se till att rätt statuskoder returneras beroende på metod och utfall
 - (Frivilligt) Lägg till paginering på `GET /composers` via `?page=&limit=`
+
+## Fler uppgifter
+
+- Lägg till en route som enbart pushar in ett verk i en kompositörs notableWorks – men utan dubletter. Använd $addToSet.
+- Lägg till en route för att ta bort ett verk i en kompositörs notableWorks
+- Skapa GET /composers/stats som returnerar: antal kompositörer, genomsnittligt födelseår, fördelning per era
+- Skapa en ny collection works och koppla verk → kompositör. Då får ny skriva ett nytt schema, nya rutter för att skapa/leta verk, om man hinner - spana in: $lookup/två-stegs-hämtning.
+- Förslag på parametrar för verk (om ni inte vet type etc så får ni gissa :)
+  - title (String, required) //titel, finns i exempeldatan
+  - year (Number, optional) //vilket år det skrevs (finns i exempeldatan)
+  - type (String, optional; t.ex. “orchestral”, “cantata”)
+  - composerId (ObjectId → Composer, required) //referensen till kompositören
+  - duration (Number, optional) //ungefärlig duration
+  - instrumentation (String, optional) //typ orkester, stråkkvartett, elektronik
+  - notes (String, optional) //information om verket
 
 ## Svårare uppgift
 
