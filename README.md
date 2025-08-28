@@ -270,7 +270,7 @@ När ni gjort endpoints för alla CRUD-operationer och koden fungerar är det da
 - Lägg till en route för att ta bort ett verk i en kompositörs notableWorks
 - Skapa GET /composers/stats som returnerar: antal kompositörer, genomsnittligt födelseår, fördelning per era
 - Skapa en ny collection works och koppla verk → kompositör. Då får ny skriva ett nytt schema, nya rutter för att skapa/leta verk, om man hinner - spana in: $lookup/två-stegs-hämtning.
-- Förslag på parametrar för verk (om ni inte vet type etc så får ni gissa :)
+- Förslag på parametrar för verk (kolla upp verken om ni vill annars hitta bara på information)
   - title (String, required) //titel, finns i exempeldatan
   - year (Number, optional) //vilket år det skrevs (finns i exempeldatan)
   - type (String, optional; t.ex. “orchestral”, “cantata”)
