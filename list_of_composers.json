@@ -1,0 +1,120 @@
+[
+	{
+		"name": "Lili Boulanger",
+		"born": 1893,
+		"death": 1918,
+		"era": "20th century",
+		"bio": "Lili Boulanger (1893–1918) was a French composer and the younger sister of Nadia Boulanger. She was the first woman to win the prestigious Prix de Rome for composition in 1913, with her cantata 'Faust et Hélène'. Despite her short life, she created a remarkable body of work, including choral, orchestral, and chamber music. Her music is noted for its rich harmonies, expressive depth, and originality, and she is remembered as a trailblazer for women in composition.",
+		"notableWorks": [
+			"Faust et Hélène (1913)",
+			"Psalm 24 (1916)",
+			"D'un matin de printemps (1918)",
+			"Pie Jesu (1918)"
+		]
+	},
+	{
+		"name": "Johann Sebastian Bach",
+		"born": 1685,
+		"death": 1750,
+		"era": "Baroque",
+		"bio": "Johann Sebastian Bach (1685–1750) was a German composer and musician of the Baroque period, revered for his mastery of counterpoint and harmonic innovation. His works remain foundational to Western classical music.",
+		"notableWorks": [
+			"Brandenburg Concertos (1721)",
+			"The Well-Tempered Clavier (1722, 1742)",
+			"Mass in B minor (1749)"
+		]
+	},
+	{
+		"name": "Wolfgang Amadeus Mozart",
+		"born": 1756,
+		"death": 1791,
+		"era": "Classical",
+		"bio": "Wolfgang Amadeus Mozart (1756–1791) was an Austrian composer whose prolific output across symphonies, operas, chamber music, and sacred works made him one of the most influential composers of the Classical era.",
+		"notableWorks": [
+			"The Magic Flute (1791)",
+			"Symphony No. 41 'Jupiter' (1788)",
+			"Requiem (1791)"
+		]
+	},
+	{
+		"name": "Maurice Ravel",
+		"born": 1875,
+		"death": 1937,
+		"era": "20th century",
+		"bio": "Maurice Ravel (1875–1937) was a French composer associated with impressionism, though he preferred to be considered a classicist. He was admired for his exquisite orchestration and innovative harmonic language.",
+		"notableWorks": [
+			"Boléro (1928)",
+			"Daphnis et Chloé (1912)",
+			"Pavane pour une infante défunte (1899)"
+		]
+	},
+	{
+		"name": "Iannis Xenakis",
+		"born": 1922,
+		"death": 2001,
+		"era": "Contemporary",
+		"bio": "Iannis Xenakis (1922–2001) was a Greek-French composer, architect, and mathematician. Known for his groundbreaking use of mathematical models and architectural concepts in music, he created works of radical sonority and structure.",
+		"notableWorks": [
+			"Metastaseis (1954)",
+			"Persephassa (1969)",
+			"Nomos Alpha (1966)"
+		]
+	},
+	{
+		"name": "Caroline Shaw",
+		"born": 1982,
+		"era": "Contemporary",
+		"bio": "Caroline Shaw (b. 1982) is an American composer, violinist, and vocalist. She won the Pulitzer Prize for Music in 2013, becoming the youngest recipient ever. Her works span classical, experimental, and popular music collaborations.",
+		"notableWorks": [
+			"Partita for 8 Voices (2012)",
+			"Orange (2019)",
+			"The Listeners (2019)"
+		]
+	},
+	{
+		"name": "Pauline Oliveros",
+		"born": 1932,
+		"death": 2016,
+		"era": "20th century",
+		"bio": "Pauline Oliveros (1932–2016) was an American composer, accordionist, and central figure in experimental and electronic music. She pioneered the practice of 'deep listening,' exploring sound, meditation, and improvisation.",
+		"notableWorks": [
+			"Bye Bye Butterfly (1965)",
+			"Deep Listening (1989)",
+			"Sound Patterns (1961)"
+		]
+	},
+	{
+		"name": "Arnold Schönberg",
+		"born": 1874,
+		"death": 1951,
+		"era": "20th century",
+		"bio": "Arnold Schönberg (1874–1951) was an Austrian composer and music theorist, known as the founder of the Second Viennese School. He developed the twelve-tone technique, profoundly shaping 20th-century modernism.",
+		"notableWorks": [
+			"Pierrot Lunaire (1912)",
+			"Verklärte Nacht (1899)",
+			"Suite for Piano, Op. 25 (1923)"
+		]
+	},
+	{
+		"name": "Éliane Radigue",
+		"born": 1932,
+		"era": "Contemporary",
+		"bio": "Éliane Radigue (b. 1932) is a French electronic composer celebrated for her immersive, slowly evolving works, often created with analog synthesizers and later with acoustic instruments. Her music explores subtle timbral shifts and deep listening.",
+		"notableWorks": [
+			"Trilogie de la Mort (1998)",
+			"Adnos I–III (1974–1980)",
+			"Occam Ocean (2012–)"
+		]
+	},
+	{
+		"name": "Wendy Carlos",
+		"born": 1939,
+		"era": "Contemporary",
+		"bio": "Wendy Carlos (b. 1939) is an American composer and electronic music pioneer, best known for her groundbreaking work with the Moog synthesizer. She brought electronic music to mainstream audiences and composed iconic film scores.",
+		"notableWorks": [
+			"Switched-On Bach (1968)",
+			"A Clockwork Orange (1971, film score)",
+			"Tron (1982, film score)"
+		]
+	}
+]
