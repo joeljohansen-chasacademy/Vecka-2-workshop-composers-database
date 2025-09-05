@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 mongoose.connect(
-	"mongodb+srv://joeljohansen:WONyyy6Sv2kg6Pfj@cluster0.htjfnnq.mongodb.net/composersDatabase?retryWrites=true&w=majority&appName=Cluster0"
+	"YOUR_KEY_HERE"
 );
 
 const app = express();
